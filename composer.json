@@ -3,7 +3,7 @@
    "description": "symfony2 demo app bundle",
    "type": "library",
    "keywords": [
-       "sf2",
+       "sf2"
    ],
    "homepage": "https://github.com/tarun-singhal/AppBundle",
    "authors": [
