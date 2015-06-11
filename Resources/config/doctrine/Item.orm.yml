@@ -1,0 +1,28 @@
+AppBundle\Entity\Item:
+    type: entity
+    table: Item
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        itemName:
+            type: string
+            nullable: false
+            length: 255
+            fixed: false
+            comment: ''
+            column: item_name
+        itemDesc:
+            type: string
+            nullable: false
+            length: 255
+            fixed: false
+            comment: ''
+            column: item_desc
+    lifecycleCallbacks: {  }

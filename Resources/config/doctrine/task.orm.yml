@@ -1,0 +1,17 @@
+AppBundle\Entity\task:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        task:
+            type: string
+            length: '255'
+        dueDate:
+            type: datetime
+            column: due_date
+    lifecycleCallbacks: {  }

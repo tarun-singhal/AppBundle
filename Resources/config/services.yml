@@ -1,0 +1,11 @@
+services:
+  user_log:
+    class: AppBundle\AppBundle
+    tags: 
+        - {name: kernel.event_listener, event: appbundle.events.sitemap, method: onUserSiteMap}
+        
+  app.twig_extension:
+    class: AppBundle\Twig\AppExtension
+    public: false
+    tags:
+        - {name: twig.extension}        
